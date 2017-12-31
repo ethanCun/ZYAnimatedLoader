@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06063D641FF8AC50008AB7EE /* ZYAnimatorCircleBreathe.m in Sources */ = {isa = PBXBuildFile; fileRef = 06063D631FF8AC50008AB7EE /* ZYAnimatorCircleBreathe.m */; };
+		06063D671FF8AC71008AB7EE /* ZYAnimatorCircleRipple.m in Sources */ = {isa = PBXBuildFile; fileRef = 06063D661FF8AC71008AB7EE /* ZYAnimatorCircleRipple.m */; };
+		069CCF291FF6951D004440E7 /* ZYAnimationThreeDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 069CCF281FF6951D004440E7 /* ZYAnimationThreeDot.m */; };
+		06AA2F201FF4B71200439AD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AA2F1F1FF4B71200439AD9 /* main.m */; };
+		06AA2F231FF4B71200439AD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AA2F221FF4B71200439AD9 /* AppDelegate.m */; };
+		06AA2F261FF4B71200439AD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AA2F251FF4B71200439AD9 /* ViewController.m */; };
+		06AA2F291FF4B71200439AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AA2F271FF4B71200439AD9 /* Main.storyboard */; };
+		06AA2F2B1FF4B71200439AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06AA2F2A1FF4B71200439AD9 /* Assets.xcassets */; };
+		06AA2F2E1FF4B71200439AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AA2F2C1FF4B71200439AD9 /* LaunchScreen.storyboard */; };
+		06AA2F371FF4B72300439AD9 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AA2F361FF4B72300439AD9 /* ListViewController.m */; };
+		06AA2F3C1FF4B81E00439AD9 /* ZYAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AA2F3B1FF4B81E00439AD9 /* ZYAnimator.m */; };
+		06AA2F3F1FF4B85300439AD9 /* AnimatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AA2F3E1FF4B85300439AD9 /* AnimatedViewController.m */; };
+		06AA2F541FF4BDC000439AD9 /* ZYAnimatorSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AA2F531FF4BDC000439AD9 /* ZYAnimatorSuper.m */; };
+		06AA2F571FF4BE2400439AD9 /* ZYAnimatorLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AA2F561FF4BE2400439AD9 /* ZYAnimatorLine.m */; };
+		06AA2F5A1FF4BE4500439AD9 /* ZYAnimatorNineDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AA2F591FF4BE4500439AD9 /* ZYAnimatorNineDot.m */; };
+		06AA2F5D1FF4BE5300439AD9 /* ZYAnimatorDoubleDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AA2F5C1FF4BE5300439AD9 /* ZYAnimatorDoubleDot.m */; };
+		06AA2F601FF4BE6000439AD9 /* ZYAnimatorWaveBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AA2F5F1FF4BE6000439AD9 /* ZYAnimatorWaveBall.m */; };
+		06AA2F631FF4BE6E00439AD9 /* ZYAnimatorCircleRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AA2F621FF4BE6E00439AD9 /* ZYAnimatorCircleRotate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06063D621FF8AC50008AB7EE /* ZYAnimatorCircleBreathe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimatorCircleBreathe.h; sourceTree = "<group>"; };
+		06063D631FF8AC50008AB7EE /* ZYAnimatorCircleBreathe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimatorCircleBreathe.m; sourceTree = "<group>"; };
+		06063D651FF8AC71008AB7EE /* ZYAnimatorCircleRipple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimatorCircleRipple.h; sourceTree = "<group>"; };
+		06063D661FF8AC71008AB7EE /* ZYAnimatorCircleRipple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimatorCircleRipple.m; sourceTree = "<group>"; };
+		069CCF271FF6951D004440E7 /* ZYAnimationThreeDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimationThreeDot.h; sourceTree = "<group>"; };
+		069CCF281FF6951D004440E7 /* ZYAnimationThreeDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimationThreeDot.m; sourceTree = "<group>"; };
+		06AA2F1B1FF4B71200439AD9 /* ZYAnimatedLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYAnimatedLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06AA2F1F1FF4B71200439AD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06AA2F211FF4B71200439AD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06AA2F221FF4B71200439AD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06AA2F241FF4B71200439AD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06AA2F251FF4B71200439AD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06AA2F281FF4B71200439AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06AA2F2A1FF4B71200439AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06AA2F2D1FF4B71200439AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06AA2F2F1FF4B71200439AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06AA2F351FF4B72300439AD9 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		06AA2F361FF4B72300439AD9 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		06AA2F391FF4B80C00439AD9 /* ZYAnimatedLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimatedLoader.h; sourceTree = "<group>"; };
+		06AA2F3A1FF4B81E00439AD9 /* ZYAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimator.h; sourceTree = "<group>"; };
+		06AA2F3B1FF4B81E00439AD9 /* ZYAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimator.m; sourceTree = "<group>"; };
+		06AA2F3D1FF4B85300439AD9 /* AnimatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedViewController.h; sourceTree = "<group>"; };
+		06AA2F3E1FF4B85300439AD9 /* AnimatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedViewController.m; sourceTree = "<group>"; };
+		06AA2F521FF4BDC000439AD9 /* ZYAnimatorSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimatorSuper.h; sourceTree = "<group>"; };
+		06AA2F531FF4BDC000439AD9 /* ZYAnimatorSuper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimatorSuper.m; sourceTree = "<group>"; };
+		06AA2F551FF4BE2400439AD9 /* ZYAnimatorLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimatorLine.h; sourceTree = "<group>"; };
+		06AA2F561FF4BE2400439AD9 /* ZYAnimatorLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimatorLine.m; sourceTree = "<group>"; };
+		06AA2F581FF4BE4500439AD9 /* ZYAnimatorNineDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimatorNineDot.h; sourceTree = "<group>"; };
+		06AA2F591FF4BE4500439AD9 /* ZYAnimatorNineDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimatorNineDot.m; sourceTree = "<group>"; };
+		06AA2F5B1FF4BE5300439AD9 /* ZYAnimatorDoubleDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimatorDoubleDot.h; sourceTree = "<group>"; };
+		06AA2F5C1FF4BE5300439AD9 /* ZYAnimatorDoubleDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimatorDoubleDot.m; sourceTree = "<group>"; };
+		06AA2F5E1FF4BE6000439AD9 /* ZYAnimatorWaveBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimatorWaveBall.h; sourceTree = "<group>"; };
+		06AA2F5F1FF4BE6000439AD9 /* ZYAnimatorWaveBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimatorWaveBall.m; sourceTree = "<group>"; };
+		06AA2F611FF4BE6E00439AD9 /* ZYAnimatorCircleRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimatorCircleRotate.h; sourceTree = "<group>"; };
+		06AA2F621FF4BE6E00439AD9 /* ZYAnimatorCircleRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimatorCircleRotate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06AA2F181FF4B71200439AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06AA2F121FF4B71200439AD9 = {
+			isa = PBXGroup;
+			children = (
+				06AA2F381FF4B7EB00439AD9 /* AnimatedLoaders */,
+				06AA2F1D1FF4B71200439AD9 /* ZYAnimatedLoader */,
+				06AA2F1C1FF4B71200439AD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06AA2F1C1FF4B71200439AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06AA2F1B1FF4B71200439AD9 /* ZYAnimatedLoader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06AA2F1D1FF4B71200439AD9 /* ZYAnimatedLoader */ = {
+			isa = PBXGroup;
+			children = (
+				06AA2F211FF4B71200439AD9 /* AppDelegate.h */,
+				06AA2F221FF4B71200439AD9 /* AppDelegate.m */,
+				06AA2F351FF4B72300439AD9 /* ListViewController.h */,
+				06AA2F361FF4B72300439AD9 /* ListViewController.m */,
+				06AA2F3D1FF4B85300439AD9 /* AnimatedViewController.h */,
+				06AA2F3E1FF4B85300439AD9 /* AnimatedViewController.m */,
+				06AA2F241FF4B71200439AD9 /* ViewController.h */,
+				06AA2F251FF4B71200439AD9 /* ViewController.m */,
+				06AA2F271FF4B71200439AD9 /* Main.storyboard */,
+				06AA2F2A1FF4B71200439AD9 /* Assets.xcassets */,
+				06AA2F2C1FF4B71200439AD9 /* LaunchScreen.storyboard */,
+				06AA2F2F1FF4B71200439AD9 /* Info.plist */,
+				06AA2F1E1FF4B71200439AD9 /* Supporting Files */,
+			);
+			path = ZYAnimatedLoader;
+			sourceTree = "<group>";
+		};
+		06AA2F1E1FF4B71200439AD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06AA2F1F1FF4B71200439AD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06AA2F381FF4B7EB00439AD9 /* AnimatedLoaders */ = {
+			isa = PBXGroup;
+			children = (
+				06AA2F391FF4B80C00439AD9 /* ZYAnimatedLoader.h */,
+				06AA2F3A1FF4B81E00439AD9 /* ZYAnimator.h */,
+				06AA2F3B1FF4B81E00439AD9 /* ZYAnimator.m */,
+				06AA2F521FF4BDC000439AD9 /* ZYAnimatorSuper.h */,
+				06AA2F531FF4BDC000439AD9 /* ZYAnimatorSuper.m */,
+				06AA2F551FF4BE2400439AD9 /* ZYAnimatorLine.h */,
+				06AA2F561FF4BE2400439AD9 /* ZYAnimatorLine.m */,
+				06AA2F581FF4BE4500439AD9 /* ZYAnimatorNineDot.h */,
+				06AA2F591FF4BE4500439AD9 /* ZYAnimatorNineDot.m */,
+				06AA2F5B1FF4BE5300439AD9 /* ZYAnimatorDoubleDot.h */,
+				06AA2F5C1FF4BE5300439AD9 /* ZYAnimatorDoubleDot.m */,
+				069CCF271FF6951D004440E7 /* ZYAnimationThreeDot.h */,
+				069CCF281FF6951D004440E7 /* ZYAnimationThreeDot.m */,
+				06AA2F5E1FF4BE6000439AD9 /* ZYAnimatorWaveBall.h */,
+				06AA2F5F1FF4BE6000439AD9 /* ZYAnimatorWaveBall.m */,
+				06AA2F611FF4BE6E00439AD9 /* ZYAnimatorCircleRotate.h */,
+				06AA2F621FF4BE6E00439AD9 /* ZYAnimatorCircleRotate.m */,
+				06063D621FF8AC50008AB7EE /* ZYAnimatorCircleBreathe.h */,
+				06063D631FF8AC50008AB7EE /* ZYAnimatorCircleBreathe.m */,
+				06063D651FF8AC71008AB7EE /* ZYAnimatorCircleRipple.h */,
+				06063D661FF8AC71008AB7EE /* ZYAnimatorCircleRipple.m */,
+			);
+			path = AnimatedLoaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06AA2F1A1FF4B71200439AD9 /* ZYAnimatedLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06AA2F321FF4B71200439AD9 /* Build configuration list for PBXNativeTarget "ZYAnimatedLoader" */;
+			buildPhases = (
+				06AA2F171FF4B71200439AD9 /* Sources */,
+				06AA2F181FF4B71200439AD9 /* Frameworks */,
+				06AA2F191FF4B71200439AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYAnimatedLoader;
+			productName = ZYAnimatedLoader;
+			productReference = 06AA2F1B1FF4B71200439AD9 /* ZYAnimatedLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06AA2F131FF4B71200439AD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = macOfEthan;
+				TargetAttributes = {
+					06AA2F1A1FF4B71200439AD9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TGQ3T5S6T9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 06AA2F161FF4B71200439AD9 /* Build configuration list for PBXProject "ZYAnimatedLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06AA2F121FF4B71200439AD9;
+			productRefGroup = 06AA2F1C1FF4B71200439AD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06AA2F1A1FF4B71200439AD9 /* ZYAnimatedLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06AA2F191FF4B71200439AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06AA2F2E1FF4B71200439AD9 /* LaunchScreen.storyboard in Resources */,
+				06AA2F2B1FF4B71200439AD9 /* Assets.xcassets in Resources */,
+				06AA2F291FF4B71200439AD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06AA2F171FF4B71200439AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06AA2F261FF4B71200439AD9 /* ViewController.m in Sources */,
+				06AA2F231FF4B71200439AD9 /* AppDelegate.m in Sources */,
+				06063D641FF8AC50008AB7EE /* ZYAnimatorCircleBreathe.m in Sources */,
+				06AA2F631FF4BE6E00439AD9 /* ZYAnimatorCircleRotate.m in Sources */,
+				06AA2F541FF4BDC000439AD9 /* ZYAnimatorSuper.m in Sources */,
+				06AA2F3C1FF4B81E00439AD9 /* ZYAnimator.m in Sources */,
+				06AA2F371FF4B72300439AD9 /* ListViewController.m in Sources */,
+				069CCF291FF6951D004440E7 /* ZYAnimationThreeDot.m in Sources */,
+				06AA2F5A1FF4BE4500439AD9 /* ZYAnimatorNineDot.m in Sources */,
+				06AA2F5D1FF4BE5300439AD9 /* ZYAnimatorDoubleDot.m in Sources */,
+				06AA2F571FF4BE2400439AD9 /* ZYAnimatorLine.m in Sources */,
+				06AA2F601FF4BE6000439AD9 /* ZYAnimatorWaveBall.m in Sources */,
+				06AA2F201FF4B71200439AD9 /* main.m in Sources */,
+				06AA2F3F1FF4B85300439AD9 /* AnimatedViewController.m in Sources */,
+				06063D671FF8AC71008AB7EE /* ZYAnimatorCircleRipple.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06AA2F271FF4B71200439AD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06AA2F281FF4B71200439AD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06AA2F2C1FF4B71200439AD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06AA2F2D1FF4B71200439AD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06AA2F301FF4B71200439AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06AA2F311FF4B71200439AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06AA2F331FF4B71200439AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = ZYAnimatedLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.ZYAnimatedLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06AA2F341FF4B71200439AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = ZYAnimatedLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.ZYAnimatedLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06AA2F161FF4B71200439AD9 /* Build configuration list for PBXProject "ZYAnimatedLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06AA2F301FF4B71200439AD9 /* Debug */,
+				06AA2F311FF4B71200439AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06AA2F321FF4B71200439AD9 /* Build configuration list for PBXNativeTarget "ZYAnimatedLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06AA2F331FF4B71200439AD9 /* Debug */,
+				06AA2F341FF4B71200439AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06AA2F131FF4B71200439AD9 /* Project object */;
+}
