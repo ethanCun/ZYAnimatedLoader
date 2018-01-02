@@ -1,8 +1,9 @@
 ### 加载视图集
 ### 使用方式
+```
 1.收到拉入AnimatedLoaders文件夹
 2.cocoapods:   pod 'ZYAnimatedLoader', '~> 0.0.3'
-
+```
 
 ### ZYAnimateTypeLineX
 ![ZYAnimateTypeLineX](https://github.com/ethanCun/ZYAnimatedLoader/blob/master/gifs/ZYAnimateTypeLineX.gif)
