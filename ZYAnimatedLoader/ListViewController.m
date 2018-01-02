@@ -32,7 +32,9 @@
                        @"ZYAnimateTypeWaveBall",
                        @"ZYAnimateTypeCircleRotate",
                        @"ZYAnimateTypeCircleRipple",
-                       @"ZYAnimateTypeCircleBreathe"
+                       @"ZYAnimateTypeCircleBreathe",
+                       @"ZYAnimateTypeCircleDot",
+                       @"ZYAnimateTypeCirclePie"
                        ];
     }
     return _types;

@@ -25,6 +25,8 @@
 		06AA2F5D1FF4BE5300439AD9 /* ZYAnimatorDoubleDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AA2F5C1FF4BE5300439AD9 /* ZYAnimatorDoubleDot.m */; };
 		06AA2F601FF4BE6000439AD9 /* ZYAnimatorWaveBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AA2F5F1FF4BE6000439AD9 /* ZYAnimatorWaveBall.m */; };
 		06AA2F631FF4BE6E00439AD9 /* ZYAnimatorCircleRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AA2F621FF4BE6E00439AD9 /* ZYAnimatorCircleRotate.m */; };
+		06FFC86B1FFB29BB00BDF17E /* ZYAnimatorCircleDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FFC86A1FFB29BB00BDF17E /* ZYAnimatorCircleDot.m */; };
+		06FFC86E1FFB333400BDF17E /* ZYAnimatorCirclePie.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FFC86D1FFB333400BDF17E /* ZYAnimatorCirclePie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,10 @@
 		06AA2F5F1FF4BE6000439AD9 /* ZYAnimatorWaveBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimatorWaveBall.m; sourceTree = "<group>"; };
 		06AA2F611FF4BE6E00439AD9 /* ZYAnimatorCircleRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimatorCircleRotate.h; sourceTree = "<group>"; };
 		06AA2F621FF4BE6E00439AD9 /* ZYAnimatorCircleRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimatorCircleRotate.m; sourceTree = "<group>"; };
+		06FFC8691FFB29BB00BDF17E /* ZYAnimatorCircleDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimatorCircleDot.h; sourceTree = "<group>"; };
+		06FFC86A1FFB29BB00BDF17E /* ZYAnimatorCircleDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimatorCircleDot.m; sourceTree = "<group>"; };
+		06FFC86C1FFB333400BDF17E /* ZYAnimatorCirclePie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimatorCirclePie.h; sourceTree = "<group>"; };
+		06FFC86D1FFB333400BDF17E /* ZYAnimatorCirclePie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimatorCirclePie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,10 @@
 				06063D631FF8AC50008AB7EE /* ZYAnimatorCircleBreathe.m */,
 				06063D651FF8AC71008AB7EE /* ZYAnimatorCircleRipple.h */,
 				06063D661FF8AC71008AB7EE /* ZYAnimatorCircleRipple.m */,
+				06FFC8691FFB29BB00BDF17E /* ZYAnimatorCircleDot.h */,
+				06FFC86A1FFB29BB00BDF17E /* ZYAnimatorCircleDot.m */,
+				06FFC86C1FFB333400BDF17E /* ZYAnimatorCirclePie.h */,
+				06FFC86D1FFB333400BDF17E /* ZYAnimatorCirclePie.m */,
 			);
 			path = AnimatedLoaders;
 			sourceTree = "<group>";
@@ -228,10 +238,12 @@
 				06AA2F541FF4BDC000439AD9 /* ZYAnimatorSuper.m in Sources */,
 				06AA2F3C1FF4B81E00439AD9 /* ZYAnimator.m in Sources */,
 				06AA2F371FF4B72300439AD9 /* ListViewController.m in Sources */,
+				06FFC86B1FFB29BB00BDF17E /* ZYAnimatorCircleDot.m in Sources */,
 				069CCF291FF6951D004440E7 /* ZYAnimationThreeDot.m in Sources */,
 				06AA2F5A1FF4BE4500439AD9 /* ZYAnimatorNineDot.m in Sources */,
 				06AA2F5D1FF4BE5300439AD9 /* ZYAnimatorDoubleDot.m in Sources */,
 				06AA2F571FF4BE2400439AD9 /* ZYAnimatorLine.m in Sources */,
+				06FFC86E1FFB333400BDF17E /* ZYAnimatorCirclePie.m in Sources */,
 				06AA2F601FF4BE6000439AD9 /* ZYAnimatorWaveBall.m in Sources */,
 				06AA2F201FF4B71200439AD9 /* main.m in Sources */,
 				06AA2F3F1FF4B85300439AD9 /* AnimatedViewController.m in Sources */,

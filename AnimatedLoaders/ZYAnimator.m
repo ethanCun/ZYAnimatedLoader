@@ -15,6 +15,8 @@
 #import "ZYAnimatorCircleRotate.h"
 #import "ZYAnimatorCircleRipple.h"
 #import "ZYAnimatorCircleBreathe.h"
+#import "ZYAnimatorCircleDot.h"
+#import "ZYAnimatorCirclePie.h"
 
 const float ZYDefaultWith = 40.f;
 
@@ -164,6 +166,17 @@ static ZYAnimator *animatr = nil;
         ZYAnimatorCircleBreathe *circlrBreathe = [self getInstanceAnimatorWithType:_type];
         
         [circlrBreathe zy_setupLayer:_animateLayer size:CGSizeMake(ZYDefaultWith, ZYDefaultWith) tintColor:_tintColor type:_type];
+        
+    }else if (_type == ZYAnimateTypeCircleDot){
+        
+        ZYAnimatorCircleDot *circleDot = [self getInstanceAnimatorWithType:_type];
+        
+        [circleDot zy_setupLayer:_animateLayer size:CGSizeMake(ZYDefaultWith, ZYDefaultWith) tintColor:_tintColor type:_type];
+    }else if (_type == ZYAnimateTypeCirclePie){
+        
+        ZYAnimatorCirclePie *circlePie = [self getInstanceAnimatorWithType:_type];
+        
+        [circlePie zy_setupLayer:_animateLayer size:CGSizeMake(ZYDefaultWith, ZYDefaultWith) tintColor:_tintColor type:_type];
     }
 }
 
@@ -196,6 +209,10 @@ static ZYAnimator *animatr = nil;
         return [[ZYAnimatorCircleRipple alloc] init];
     }else if (type == ZYAnimateTypeCircleBreathe){
         return [[ZYAnimatorCircleBreathe alloc] init];
+    }else if (type == ZYAnimateTypeCircleDot){
+        return [[ZYAnimatorCircleDot alloc] init];
+    }else if (type == ZYAnimateTypeCirclePie){
+        return [[ZYAnimatorCirclePie alloc] init];
     }
     
     return nil;

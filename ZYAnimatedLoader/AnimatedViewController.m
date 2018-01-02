@@ -33,7 +33,9 @@
                                   @"ZYAnimateTypeWaveBall",
                                   @"ZYAnimateTypeCircleRotate",
                                   @"ZYAnimateTypeCircleRipple",
-                                  @"ZYAnimateTypeCircleBreathe"
+                                  @"ZYAnimateTypeCircleBreathe",
+                                  @"ZYAnimateTypeCircleDot",
+                                  @"ZYAnimateTypeCirclePie"
                                   ][_type];
     
     ZYAnimator *animator = [[ZYAnimator alloc] initAnimateWithType:_type tintColor:[UIColor brownColor]];

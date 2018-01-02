@@ -23,7 +23,9 @@ typedef NS_ENUM(NSInteger, ZYAnimateType)
     ZYAnimateTypeWaveBall,
     ZYAnimateTypeCircleRotate,
     ZYAnimateTypeCircleRipple,
-    ZYAnimateTypeCircleBreathe
+    ZYAnimateTypeCircleBreathe,
+    ZYAnimateTypeCircleDot,
+    ZYAnimateTypeCirclePie
 };
 
 @interface ZYAnimator : UIView
