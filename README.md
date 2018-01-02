@@ -2,10 +2,8 @@
 
 ### ZYAnimateTypeLineX
 ![ZYAnimateTypeLineX](https://github.com/ethanCun/ZYAnimatedLoader/blob/master/gifs/ZYAnimateTypeLineX.gif)
-
 ### ZYAnimateTypeLineY
 ![ZYAnimateTypeLineY](https://github.com/ethanCun/ZYAnimatedLoader/blob/master/gifs/ZYAnimateTypeLineY.gif)
-
 ### ZYAnimateLineCenterY
 ![ZYAnimateLineCenterY](https://github.com/ethanCun/ZYAnimatedLoader/blob/master/gifs/ZYAnimateLineCenterY.gif)
 
@@ -38,3 +36,9 @@
 
 ### ZYAnimateTypeWaveBall
 ![ZYAnimateTypeWaveBall](https://github.com/ethanCun/ZYAnimatedLoader/blob/master/gifs/ZYAnimateTypeWaveBall.gif)
+
+### ZYAnimatedTypeCirclePie
+![ZYAnimatedTypeCirclePie](https://github.com/ethanCun/ZYAnimatedLoader/blob/master/gifs/ZYAnimatedTypeCirclePie.gif)
+
+### ZYAnimatedTypeCirclrDot
+![ZYAnimatedTypeCirclrDot](https://github.com/ethanCun/ZYAnimatedLoader/blob/master/gifs/ZYAnimatedTypeCirclrDot.gif)
