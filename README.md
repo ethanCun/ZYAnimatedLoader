@@ -40,5 +40,5 @@
 ### ZYAnimatedTypeCirclePie
 ![ZYAnimatedTypeCirclePie](https://github.com/ethanCun/ZYAnimatedLoader/blob/master/gifs/ZYAnimatedTypeCirclePie.gif)
 
-### ZYAnimatedTypeCirclrDot
+### ZYAnimatedTypeCircleDot
 ![ZYAnimatedTypeCirclrDot](https://github.com/ethanCun/ZYAnimatedLoader/blob/master/gifs/ZYAnimatedTypeCirclrDot.gif)
