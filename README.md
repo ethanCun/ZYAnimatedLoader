@@ -1,7 +1,7 @@
 ### 加载视图集
 ### 使用方式
 ```
-1.收到拉入AnimatedLoaders文件夹
+1.手动拉入AnimatedLoaders文件夹
 2.cocoapods:   pod 'ZYAnimatedLoader', '~> 0.0.3'
 ```
 
