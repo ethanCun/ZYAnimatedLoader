@@ -10,7 +10,5 @@
 
 @interface ZYAnimatorCirclePie : ZYAnimatorSuper
 
-/**移除定时器*/
-- (void)stopDisplayLink;
 
 @end
