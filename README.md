@@ -3,7 +3,7 @@
 ### 使用方式
 ```
 1.手动拉入AnimatedLoaders文件夹
-2.cocoapods:   pod 'ZYAnimatedLoader', '~> 0.0.3'
+2.cocoapods: pod 'ZYAnimatedLoader', '~> 0.0.4'
 ```
 ### 效果图
 ### ZYAnimateTypeLineX
