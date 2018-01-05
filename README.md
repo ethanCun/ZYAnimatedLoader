@@ -4,7 +4,13 @@
 ```
 1.手动拉入AnimatedLoaders文件夹
 2.cocoapods: pod 'ZYAnimatedLoader', '~> 0.0.4'
+
+ ZYAnimator *animator = [[ZYAnimator alloc] initAnimateWithType:ZYAnimateTypeLineCenterY tintColor:[UIColor redColor]];
+ animator.frame = CGRectMake(0, 0, 100, 100);
+ [animator startAnimation];
+ [self.view addSubview:animator];
 ```
+
 ### 效果图
 ### ZYAnimateTypeLineX
 ![ZYAnimateTypeLineX](https://github.com/ethanCun/ZYAnimatedLoader/blob/master/gifs/ZYAnimateTypeLineX.gif)
