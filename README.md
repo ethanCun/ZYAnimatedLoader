@@ -1,10 +1,11 @@
-### 加载视图集
+![ZYAnimatedLoader](https://github.com/ethanCun/ZYAnimatedLoader/blob/master/ZYAnimatedLoader.png)
+
 ### 使用方式
 ```
 1.手动拉入AnimatedLoaders文件夹
 2.cocoapods:   pod 'ZYAnimatedLoader', '~> 0.0.3'
 ```
-
+### 效果图
 ### ZYAnimateTypeLineX
 ![ZYAnimateTypeLineX](https://github.com/ethanCun/ZYAnimatedLoader/blob/master/gifs/ZYAnimateTypeLineX.gif)
 ### ZYAnimateTypeLineY
